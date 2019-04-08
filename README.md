@@ -4,20 +4,20 @@
 ## 使用方法 ##
 ## download##
     在需要用到的文件引用即可 // import randomName from 'youpath/randowm-name'
-    //生成一个名字（男女不限）
-    1.randomName.getName(); 
+    <!-- 生成一个名字（男女不限） -->
+    randomName.getName(); 
 
-    //生成一个名字（男）
-    2.randomName.getMaleName(); 
+    <!-- 生成一个名字（男） -->
+    randomName.getMaleName(); 
 
-    //生成一个名字（女）;
-    3.randomName.getName(); 
+    <!-- 生成一个名字（女） -->
+    randomName.getName(); 
 
-    //生成一个昵称;
-    4.randomName.getNickName();
+    <!-- 生成一个昵称 -->
+    randomName.getNickName();
 
-    //生成一个姓;
-    5.randomName.getFamilyName();
+    <!-- 生成一个姓 -->
+    randomName.getFamilyName();
 
     //默认生成姓名含有复姓
     //若不需要复姓则可以在在调用方法时传入参数false  如：randomName.getName(false);
