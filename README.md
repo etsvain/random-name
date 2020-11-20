@@ -3,7 +3,7 @@
 
 ## 使用方法 ##
 ## download##
-    在需要用到的文件引用即可 // import randomName from 'youpath/randowm-name'
+    在需要用到的文件引用即可 // import randomName from 'youpath/random-name'
 
 生成一个名字（男女不限）
 
