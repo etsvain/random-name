@@ -695,7 +695,7 @@ class RandomName {
   }
 
   getNickName() {
-    return this.getHeader() + this.getFoot();
+    return this.getNickHeader() + this.getNickFoot();
   }
 
   getFamilyName(sur = true) {
